@@ -16,3 +16,5 @@ def addcomment(new_video, username, comment_text):
 	new_video["comment"]["username"] = username
 	new_video["comment"]["comment_text"] = comment_text
 print(create_youtube_video)
+print ("Title:"‚vid["title"]) print ("Description:" ,vid["description"]) print ("\n", vid["likes"], "people liked this :)" print (vid["dislikes"], "people disliked this : (") print ( "Comments:")
+print vid[" comments"] ["username"], ":", vid["comments" J (" comment _text"ID
