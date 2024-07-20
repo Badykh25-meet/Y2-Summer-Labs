@@ -25,7 +25,7 @@ def home():
 	elif request.method == 'POST':
 		birth_month = request.form.get('birthMonth')
 		return render_template(url_for("fortune.html", birth_month=birth_month))
-fortunes = ["YOU WILL DIE!", "you will be killed","you will live", "you wont live,you wont die", "you will be lonely", "you wont be lonely", "you will be happy", "you wont be happy", "you will be sad"]
+fortunes = ["YOU WILL DIE!", "you will be killed","you will live", "you wont live","you wont die", "you will be lonely", "you wont be lonely", "you will be happy", "you wont be happy", "you will be sad"]
 
 @app.route('/fortune/<month>')
 def fortune(month):
