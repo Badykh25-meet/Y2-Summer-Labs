@@ -5,6 +5,11 @@
 <body>
 	<h1>WELCOME TO THE FORTUNE TELLER!</h1>
 	<h3>click the link below to go to the fortune telling page<h3>
-	<h3><a href = "/fortune">fortune!</a></h3>
+	<h3><a href = "/fortune/<month>">fortune!</a></h3>
+	<form action="/home" method="post">
+    <label for="birthMonth">Enter your birth month:</label><br>
+    <input type="text" id="birthMonth" name="birthMonth"><br>
+    <button type="submit">Tell my fortune</button>
+</form>
 </body>
 </html>
