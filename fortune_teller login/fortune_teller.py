@@ -20,7 +20,7 @@ def login():
 @app.route('/home', methods=['GET', 'POST'])
 def home():
 	if request.method == 'GET':
-		return render_template("home.html")
+		return render_template("home.html",name=session['name'])
 
 	elif request.method == 'POST':
 		birth_month = request.form.get('birthMonth')
